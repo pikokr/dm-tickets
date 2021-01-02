@@ -16,6 +16,41 @@
     combined-stream "^1.0.8"
     mime-types "^2.1.12"
 
+"@prisma/bar@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@prisma/bar/-/bar-0.0.1.tgz#088c4fbbb79c588391437ade9fd3a85527e753b3"
+  integrity sha512-FVLhwVkbfhXlBhroWfIXMLi+3Jh9IEzYp+9z+MUUiw3ZsbcoAil7CN9/QIjHc4/TcCRyRfuSmT7qCnn4O+TjJw==
+
+"@prisma/cli@^2.13.1":
+  version "2.13.1"
+  resolved "https://registry.yarnpkg.com/@prisma/cli/-/cli-2.13.1.tgz#6af36f3e1a99852c6232202946043263a537cd95"
+  integrity sha512-1KIo29GFAM/oe56oVFB6SjLV+xaunBtcnln1v0KcSn0bx1MgdN00o0haB5qTqRwnqEMTqsS81zH8VwdIgQhn6A==
+  dependencies:
+    "@prisma/bar" "^0.0.1"
+    "@prisma/engines" "2.13.1-2.fcbc4bb2d306c86c28014f596b1e8c7980af8bd4"
+
+"@prisma/client@^2.13.1":
+  version "2.13.1"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.13.1.tgz#7379eeca980afc2fe64d2c745eb90480877f30f4"
+  integrity sha512-aD33DJpVHU3VqwDk5PEgnffbQeilUqmwVgqIxstVEiZ7TSs5oXQjwsSWAEfuvzPsR/rMJdeauAov58WHlMbVVA==
+  dependencies:
+    "@prisma/engines-version" "2.13.1-2.fcbc4bb2d306c86c28014f596b1e8c7980af8bd4"
+
+"@prisma/engines-version@2.13.1-2.fcbc4bb2d306c86c28014f596b1e8c7980af8bd4":
+  version "2.13.1-2.fcbc4bb2d306c86c28014f596b1e8c7980af8bd4"
+  resolved "https://registry.yarnpkg.com/@prisma/engines-version/-/engines-version-2.13.1-2.fcbc4bb2d306c86c28014f596b1e8c7980af8bd4.tgz#9f5d48054aeeea0dfffeb45572aba7097e33c198"
+  integrity sha512-xMfD9iu03XSTgZqgWYqTnKYfmabjY+U2tj7ClA1WQqLziY0ZGI48tZQpNe6WGzv+6nVss3PpfHfkKlM0kzhZbw==
+
+"@prisma/engines@2.13.1-2.fcbc4bb2d306c86c28014f596b1e8c7980af8bd4":
+  version "2.13.1-2.fcbc4bb2d306c86c28014f596b1e8c7980af8bd4"
+  resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-2.13.1-2.fcbc4bb2d306c86c28014f596b1e8c7980af8bd4.tgz#4a6aba46db9be442712e4b14b5a72e1da830e837"
+  integrity sha512-APwZRomHG94bOc3jY6kaoEOkVdavN859c5hCFOjhy014Uut8v5+dg1lz3RzUaiiSHK8NwgGKrO5rqO09yGu8Eg==
+
+"@types/node@^14.14.19":
+  version "14.14.19"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.19.tgz#5135176a8330b88ece4e9ab1fdcfc0a545b4bab4"
+  integrity sha512-4nhBPStMK04rruRVtVc6cDqhu7S9GZai0fpXgPXrFpcPX6Xul8xnrjSdGB4KPBVYG/R5+fXWdCM8qBoiULWGPQ==
+
 abort-controller@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/abort-controller/-/abort-controller-3.0.0.tgz#eaf54d53b62bae4138e809ca225c8439a6efb392"
@@ -64,6 +99,11 @@ diff@^4.0.1:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/diff/-/diff-4.0.2.tgz#60f3aecb89d5fae520c11aa19efc2bb982aade7d"
   integrity sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==
+
+discord-akairo@^8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/discord-akairo/-/discord-akairo-8.1.0.tgz#9f3d910e12c197d40d3522a3a93679e2a746a6ca"
+  integrity sha512-INWYmHo6NgyYx1ZKGSCmgznVfvkXpWGj4fGCGjO8IPkZ06Bidb9YKr4rXy2lwG0kprCjvqY0qbbhcw6N050abQ==
 
 discord.js@12.0.0:
   version "12.0.0"
