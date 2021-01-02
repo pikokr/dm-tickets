@@ -22,7 +22,7 @@ export default class extends Listener {
       noPerm(msg) {
         return msg.react('🚫')
       },
-      prefix: process.env.COMMAND_PREFIX,
+      prefix: process.env.PREFIX,
       owners: this.client.ownerID as string[],
     })
     this.client.on('message', (msg) => this.client.dokdo!.run(msg))

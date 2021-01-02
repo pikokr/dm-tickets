@@ -11,6 +11,8 @@ generator client {
 }
 
 model Ticket {
-  channel String @id
+  id      Int     @id @default(autoincrement())
+  channel String
   user    String
+  closed  Boolean @default(false)
 }

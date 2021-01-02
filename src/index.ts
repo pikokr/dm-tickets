@@ -1,6 +1,6 @@
 import 'dotenv/config'
 import { PrismaClient } from '@prisma/client'
-import { Client } from 'discord.js'
+import Client from './client'
 
 declare global {
   namespace NodeJS {
