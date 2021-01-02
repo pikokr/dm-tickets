@@ -5,8 +5,8 @@ import { Message } from 'discord.js'
 export default class extends Listener {
   constructor() {
     super('ticket', {
-      emitter: 'client',
-      event: 'message',
+      emitter: 'commandHandler',
+      event: 'messageInvalid',
     })
   }
 
@@ -18,6 +18,9 @@ export default class extends Listener {
     const ticket = await prisma.ticket.findFirst({
       where: {
         channel: msg.channel.id,
+        AND: {
+          closed: false,
+        },
       },
     })
     if (!ticket) return
